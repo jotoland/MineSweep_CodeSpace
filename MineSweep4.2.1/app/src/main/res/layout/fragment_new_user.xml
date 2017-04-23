@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bkgrdcustom2"
+    android:padding="@dimen/md_keylines">
+
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Submit"
+        android:textSize="26sp"
+        android:background="@drawable/shapebutton2"
+        android:textColor="@color/white"
+        android:bottomRightRadius="40dp"
+        android:bottomLeftRadius="40dp"
+        android:topLeftRadius="40dp"
+        android:topRightRadius="40dp"
+        android:layout_below="@+id/name_input"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:textSize="18sp"
+        android:id="@+id/output_tv1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/new_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textSize = "28sp"
+        android:textColor="@color/white"
+        android:text=" New User "
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_below="@+id/output_tv1"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/name_input"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:typeface="serif"
+        android:background="@drawable/border"
+        android:hint = " Enter user name..."
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:backgroundTintMode="src_over"
+        android:cursorVisible="true"
+        android:drawablePadding="3dp"
+        android:hapticFeedbackEnabled="true"
+        android:includeFontPadding="true"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/new_user"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

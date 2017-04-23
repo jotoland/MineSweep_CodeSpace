@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:tools="http://schemas.android.com/tools"
+android:background="@drawable/bkgrdcustom1"
+android:padding="@dimen/md_keylines">
+
+    <EditText
+        android:id="@+id/row_input"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:typeface="serif"
+        tools:inputType="number"
+        tools:cursorVisible="true"
+        android:hint= " Between: 6 - 15"
+        android:background="@drawable/border"
+        android:singleLine="true"
+        android:layout_below="@+id/row_text"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/bomb_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textSize = "18sp"
+        android:textColor="@color/white"
+        android:text=" Enter Number of Bombs: "
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/custom_input"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/row_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textSize = "18sp"
+        android:textColor="@color/white"
+        android:text=" Enter Number of Rows: "
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/bomb_input"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/bomb_input"
+        android:layout_width="fill_parent"
+        android:typeface="serif"
+        tools:inputType="number"
+        android:background="@drawable/border"
+        android:hint = " Between: 3 - 60"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:layout_height="50dp"
+        android:layout_below="@+id/bomb_text"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Submit"
+        android:textSize="26sp"
+        android:background="@drawable/shapebutton"
+        android:textColor="@color/white"
+        android:bottomRightRadius="40dp"
+        android:bottomLeftRadius="40dp"
+        android:topLeftRadius="40dp"
+        android:topRightRadius="40dp"
+        android:layout_below="@+id/row_input"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp" />
+
+    <TextView
+        android:text=" [ello] "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textSize = "22sp"
+        android:id="@+id/custom_ello"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/output_tv1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/output_tv1"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:textSize="18sp"
+        android:layout_below="@+id/submit_button"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/output_tv2"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        android:layout_below="@+id/output_tv1"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text=" [Custom Mode] "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textSize = "22sp"
+        android:id="@+id/custom_input"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="36dp" />
+
+
+</RelativeLayout>

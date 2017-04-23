@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkgrdbegnner"
+    android:padding="@dimen/md_keylines">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:textSize="18sp"
+        android:id="@+id/output_tv1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/name_input"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:typeface="serif"
+        android:background="@drawable/border"
+        android:hint = " Enter user name..."
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:backgroundTintMode="src_over"
+        android:cursorVisible="true"
+        android:drawablePadding="3dp"
+        android:hapticFeedbackEnabled="true"
+        android:includeFontPadding="true"
+        android:layout_below="@+id/title_game"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Submit"
+        android:textSize="26sp"
+        android:background="@drawable/shapebutton3"
+        android:textColor="@color/white"
+        android:bottomRightRadius="40dp"
+        android:bottomLeftRadius="40dp"
+        android:topLeftRadius="40dp"
+        android:topRightRadius="40dp"
+        android:layout_below="@+id/name_input"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/title_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textSize = "28sp"
+        android:textColor="@color/white"
+        android:text="MineSweep!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/welcome"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textSize = "28sp"
+        android:textColor="@color/white"
+        android:text="Welcome"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_below="@+id/output_tv1"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/too"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textSize = "28sp"
+        android:textColor="@color/white"
+        android:text="to"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_below="@+id/output_tv1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp" />
+
+</RelativeLayout>

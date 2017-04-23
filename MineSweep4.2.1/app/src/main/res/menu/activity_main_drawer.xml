@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_newuser"
+            android:icon="@drawable/ic_member"
+            android:title="New User" />
+        <item
+            android:id="@+id/nav_beginner"
+            android:icon="@drawable/ic_play"
+            android:title="Beginner" />
+        <item
+            android:id="@+id/nav_intermediate"
+            android:icon="@drawable/ic_play"
+            android:title="Intermediate" />
+        <item
+            android:id="@+id/nav_advanced"
+            android:icon="@drawable/ic_play"
+            android:title="Advanced" />
+        <item
+            android:id="@+id/nav_Custom"
+            android:icon="@drawable/ic_game"
+            android:title="Custom Game" />
+        <item
+            android:id="@+id/nav_scores"
+            android:icon="@drawable/ic_star"
+            android:title="High Scores" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_info"
+            android:title="Instructions" />
+
+    </group>
+
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/nav_team"
+                android:icon="@drawable/ic_team"
+                android:title="Team" />
+        </menu>
+    </item>
+
+</menu>

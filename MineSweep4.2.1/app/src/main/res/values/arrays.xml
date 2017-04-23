@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="background_picture">
+        <item>@drawable/a</item> //lee
+        <item>@drawable/d</item>  //john
+        <item>@drawable/c</item> //rich
+        <item>@drawable/e</item> //steph
+        <item>@drawable/b</item> //gerard
+        <item>@drawable/f</item> //dylan
+    </array>
+    <string-array name="member_names">
+        <item>Lee Sander</item>
+        <item>John Toland</item>
+        <item>Richard O\'Neal</item>
+        <item>Stephanie Dixon</item>
+        <item>Gerard Fierro</item>
+        <item>Dylan Salopek</item>
+    </string-array>
+    <string-array name="member_emails">
+        <item>lee@leesander.com</item>
+        <item>jtoland3.14@gmail.com</item>
+        <item>roneal96@gmail.com</item>
+        <item>stephanie.dixon921@gmail.com</item>
+        <item>Gerrardf7@gmail.com</item>
+        <item>dylan.salopek@gmail.com</item>
+    </string-array>
+    <string-array name="member_major">
+        <item>Bachelor of Science in Computer Science at Texas Tech University</item>
+        <item>Bachelor of Science in Computer Science at Texas Tech University</item>
+        <item>Bachelor of Science in Computer Science at Texas Tech University</item>
+        <item>Bachelor of Science in Computer Science at Texas Tech University</item>
+        <item>Bachelor of Science in Computer Science at Texas Tech University</item>
+        <item>Bachelor of Science in Computer Science at Texas Tech University</item>
+    </string-array>
+    <string-array name="member_grad">
+        <item>Graduating Dec. 2017</item> //lee
+        <item>Graduating May  2017</item> //john
+        <item>Graduating Dec. 2017</item> //rich
+        <item>Graduating Dec. 2017</item> //steph
+        <item>Graduating Dec. 2017</item> //gerard
+        <item>Graduating Dec. 2017</item> //dylan
+    </string-array>
+    <string-array name="member_bio">
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+    </string-array>
+    <array name="member_picture">
+        <item>@drawable/ic_member</item>
+        <item>@drawable/ic_member</item>
+        <item>@drawable/ic_member</item>
+        <item>@drawable/ic_member</item>
+        <item>@drawable/ic_member</item>
+        <item>@drawable/ic_member</item>
+    </array>
+    <array name="scores_img">
+        <item>@drawable/ic_star</item>
+        <item>@drawable/ic_2</item>
+        <item>@drawable/ic_3</item>
+        <item>@drawable/ic_4</item>
+        <item>@drawable/ic_5</item>
+        <item>@drawable/ic_6</item>
+        <item>@drawable/ic_7</item>
+        <item>@drawable/ic_8</item>
+        <item>@drawable/ic_9</item>
+        <item>@drawable/ic_10</item>
+    </array>
+    <string-array name="scores_time">
+        <item>00:54</item>
+        <item>00:57</item>
+        <item>00:58</item>
+        <item>01:02</item>
+        <item>01:04</item>
+        <item>01:10</item>
+        <item>01:16</item>
+        <item>02:35</item>
+    </string-array>
+</resources>

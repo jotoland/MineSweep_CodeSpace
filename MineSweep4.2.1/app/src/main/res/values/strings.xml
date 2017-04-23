@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MineSweep4.2</string>
+    <string name="bombcount_hint">Enter a number between 3 and 60</string>
+    <string name="rowcount_hint">Enter a number between 3 and 20</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="item_title">Item Title</string>
+    <string name="email">email@email.com</string>
+    <string name="action_new">New Game</string>
+    <string name="action_playername">New User</string>
+    <string name="action_easy">Beginner</string>
+    <string name="action_medium">Intermediate</string>
+    <string name="action_hard">Advanced</string>
+    <string name="action_highscore">High Scores</string>
+    <string name="action_settings">Settings</string>
+    <string name="detail_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+    </string>
+    <string name="item_desc">Item description</string>
+    <string name="instructions_title">How to Play</string>
+    <string name="instructions_titlemore">Detailed Instructions</string>
+    <string name="instructions_details">\nWelcome to MineSweep,\n\nThe default game level is beginner. The game level can be changed at anytime using the menu. To play the game you must remove all the tiles without touching a tile that contains a mine. If you touch a tile that contains a mine you loose the game. After losing the game touching the red mine icon restarts the game.
+        \n\nThe numbers represent the amount of surrounding tiles that contain mines. This information will provied assistance in winning the game. To win the game you must remove all the tiles that do not contain mines
+        without touching a tile that does contain a mine. At the same time you must mark all the tiles that you believe contain a mine with a flag. Flags can be placed by long pressing a tile and removed with the same action. A long press must last longer than half a second.
+        \n\nRemember the timer is running. The faster you win the game the higher ranking for your time! Also the timer will pause when a phone call interrupts game play. An ongoing game cannot be restarted until the game play is complete whether win or loose. The super smiley will also restart the game when touched.
+        \n\nGood luck! \"Never give up!\"\n\n\n\nGame Levels:\n\nBeginner: 10x10, 10 bombs\nIntermediate: 12x10, 20 bombs\nAdvanced: 13x10, 32 bombs\n\nCRITICAL: This application reads and writes from/to a high score file on your android handset.The file can be located in your files at:\n\n/elloMineSweep4.2\n\nIf you happen to move or delete the file:
+        \n\n1. Close the MineSweep application\n2. Launch the application\n\nWhen the file is missing, this action will rewrite the original high score file. Be aware your previous high scores will be lost.\n\n\n\n</string>
+    <string name="action_custom">Custom Game</string>
+</resources>
