@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/johntoland/StudioProjects/MineSweep3.0 copy/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5413d1958c4fde92b1428f998455f9d1a77cf5f0">
+        <dex dex="/Users/johntoland/StudioProjects/MineSweep3.0 copy/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_966193f9dae8f4d573023375b0f3aa2aa725e001.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/johntoland/StudioProjects/MineSweep3.0 copy/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2c19018b2a3f7e2ceec6ff3c4cda22ddc8bdfee7">
+        <dex dex="/Users/johntoland/StudioProjects/MineSweep3.0 copy/app/build/intermediates/pre-dexed/debug/instant-run_272a4506063998670a1ec7e6ddbb4316f7180753.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/johntoland/StudioProjects/MineSweep3.0/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="009b728d65cd95806b9fdde283a9114950cdc468">
+        <dex dex="/Users/johntoland/StudioProjects/MineSweep3.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_7926a5986db858a3f328ade27dda1d14b1b195d4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/johntoland/StudioProjects/MineSweep3.0/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5ba0f328e03c3d49ec380f89892e49d67bb92b23">
+        <dex dex="/Users/johntoland/StudioProjects/MineSweep3.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_378966805b66ee798cbb0e7caf7d1fa089c8b7db/classes.dex" />
+    </item>
+
+</items>

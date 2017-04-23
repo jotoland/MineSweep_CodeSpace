@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/johntoland/StudioProjects/MineSweep3.0 copy/app/src/main/assets"/><source path="/Users/johntoland/StudioProjects/MineSweep3.0 copy/app/app/assets"/><source path="/Users/johntoland/StudioProjects/MineSweep3.0 copy/app/assets"/><source path="/Users/johntoland/StudioProjects/MineSweep3.0 copy/app/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/johntoland/StudioProjects/MineSweep3.0 copy/app/src/debug/assets"/></dataSet></merger>
